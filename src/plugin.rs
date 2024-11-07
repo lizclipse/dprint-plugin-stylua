@@ -89,7 +89,7 @@ impl SyncPluginHandler<Configuration> for StyluaPluginHandler {
             diagnostics,
             config: resolved_config,
             file_matching: FileMatchingInfo {
-                file_extensions: vec!["txt".to_owned()],
+                file_extensions: vec!["lua".to_owned()],
                 file_names: vec![],
             },
         }
