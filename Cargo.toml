@@ -22,8 +22,8 @@ lua54 = ["stylua/lua54"]
 luau = ["stylua/luau"]
 
 [dependencies]
-anyhow = "1.0.80"
-dprint-core = { version = "0.66.1", features = ["wasm"] }
-serde = { version = "1.0.197", features = ["derive"] }
-serde_json = "1.0.114"
+anyhow = "1.0.93"
+dprint-core = { version = "0.67.2", features = ["wasm"] }
+serde = { version = "1.0.214", features = ["derive"] }
+serde_json = "1.0.132"
 stylua = { version = "0.20.0", features = ["serialize", "fromstr"], default-features = false }
